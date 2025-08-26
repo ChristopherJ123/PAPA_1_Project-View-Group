@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halo"
+        android:background="@color/color1"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color2"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Test"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
+
+    <TableLayout
+        android:background="@color/color3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <TextView
+                android:textColor="@color/white"
+                android:text="Nama"/>
+            <TextView
+                android:textColor="@color/white"
+                android:text="Alamat"/>
+            <TextView
+                android:textColor="@color/white"
+                android:text="No Telp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textColor="@color/white"
+                android:text="Budianto"/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_column="2"
+                android:text="08123123123"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textColor="@color/white"
+                android:text="Supri"/>
+            <TextView
+                android:textColor="@color/white"
+                android:text="Siwalankerto A no 23"/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_column="2"
+                android:text="08123123123"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_span="2"
+                android:text="Supri"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
