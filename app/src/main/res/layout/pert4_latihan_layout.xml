@@ -21,7 +21,7 @@
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
-                android:src="@drawable/location"
+                android:src="@drawable/ic_location"
                 />
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
-                android:src="@drawable/bell" />
+                android:src="@drawable/ic_bell" />
 
         </LinearLayout>
 
@@ -58,7 +58,7 @@
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
-                android:src="@drawable/search" />
+                android:src="@drawable/ic_search" />
 
             <EditText
                 android:layout_width="0dp"
@@ -72,7 +72,7 @@
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
-                android:src="@drawable/mic" />
+                android:src="@drawable/ic_mic" />
 
         </LinearLayout>
 
@@ -438,7 +438,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/home"
+                        android:src="@drawable/ic_home"
                         app:tint="@color/green" />
 
                     <TextView
@@ -462,7 +462,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/explore"
+                        android:src="@drawable/ic_explore"
                         app:tint="@color/grey_neutral" />
 
                     <TextView
@@ -485,7 +485,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/explore"
+                        android:src="@drawable/ic_explore"
                         app:tint="@color/grey_neutral" />
 
                     <TextView
@@ -508,7 +508,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/explore"
+                        android:src="@drawable/ic_explore"
                         app:tint="@color/grey_neutral" />
 
                     <TextView
@@ -531,7 +531,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/person"
+                        android:src="@drawable/ic_person"
                         app:tint="@color/grey_neutral" />
 
                     <TextView

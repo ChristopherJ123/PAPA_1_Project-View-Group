@@ -37,7 +37,7 @@
                 android:textColor="#FFFFFF"
                 android:drawableTint="#FFFFFF"
                 android:padding="4dp"
-                android:drawableStart="@drawable/profile"
+                android:drawableStart="@drawable/ic_profile"
                 android:drawablePadding="4dp"
                 android:gravity="center_vertical"/>
         </FrameLayout>

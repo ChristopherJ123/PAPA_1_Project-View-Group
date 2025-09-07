@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FilterButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FilterButton.Selected" parent="FilterButton">
+        <item name="android:background">@drawable/pert4_filter_selected</item> <!-- blue rounded shape -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FilterButton.Unselected" parent="FilterButton">
+        <item name="android:background">@drawable/pert4_filter_unselected</item> <!-- grey rounded shape -->
+        <item name="android:textColor">#888888</item>
+    </style>
+
+</resources>
