@@ -408,31 +408,32 @@
             </LinearLayout>
 
         </HorizontalScrollView>
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="200dp">
 
             <LinearLayout
                 android:id="@+id/bottomNavBar"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_alignParentBottom="true"
-                android:orientation="horizontal"
                 android:background="@color/white"
                 android:elevation="8dp"
-                android:weightSum="5"
-                android:paddingVertical="6dp">
+                android:orientation="horizontal"
+                android:paddingVertical="6dp"
+                android:weightSum="5">
 
                 <!-- Home -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:clickable="true"
-                    android:focusable="true">
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="24dp"
@@ -444,8 +445,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Home"
-                        android:textSize="12sp"
-                        android:textColor="@color/green"/>
+                        android:textColor="@color/green"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <!-- Discover -->
@@ -453,10 +454,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:clickable="true"
-                    android:focusable="true">
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="24dp"
@@ -468,18 +469,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Discover"
-                        android:textSize="12sp"
-                        android:textColor="@color/grey_neutral"/>
+                        android:textColor="@color/grey_neutral"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:clickable="true"
-                    android:focusable="true">
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="24dp"
@@ -491,18 +492,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Cart"
-                        android:textSize="12sp"
-                        android:textColor="@color/grey_neutral"/>
+                        android:textColor="@color/grey_neutral"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:clickable="true"
-                    android:focusable="true">
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="24dp"
@@ -514,18 +515,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Orders"
-                        android:textSize="12sp"
-                        android:textColor="@color/grey_neutral"/>
+                        android:textColor="@color/grey_neutral"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:clickable="true"
-                    android:focusable="true">
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="24dp"
@@ -537,8 +538,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Profile"
-                        android:textSize="12sp"
-                        android:textColor="@color/grey_neutral"/>
+                        android:textColor="@color/grey_neutral"
+                        android:textSize="12sp" />
                 </LinearLayout>
             </LinearLayout>
 
